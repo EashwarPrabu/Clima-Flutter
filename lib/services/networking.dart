@@ -15,20 +15,5 @@ class NetworkHelper {
     } else {
       print(res.statusCode);
     }
-//
-//    if (response.statusCode == 200) {
-//      var data = response.body;
-//      var decodedData = jsonDecode(data); //"status": "Success"
-//      String postResult = decodedData['status'];
-//      if (postResult == "Success") {
-//        http.Response getResponse = await http.get(url);
-//
-//        if (getResponse.statusCode == 200) {
-//          var getData = getResponse.body;
-//          var getDecodedData = jsonDecode(getData);
-//          double value = getDecodedData['value'];
-//        }
-//      }
-//    }
   }
 }
